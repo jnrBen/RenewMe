@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Local data — contains auth DB, logs, saved (non-secret) config
+data/
+
+# Never commit real secrets if you ever hardcode anything for testing
+*.env
