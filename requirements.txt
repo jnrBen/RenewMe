@@ -1,0 +1,11 @@
+customtkinter>=5.2.2
+pandas>=2.0
+sqlalchemy>=2.0
+requests>=2.28
+keyring>=24.0
+
+# Database drivers
+mysql-connector-python>=8.0
+psycopg2-binary>=2.9
+# Only needed for Microsoft SQL Server (also requires ODBC Driver 17)
+pyodbc>=5.0
